@@ -1,0 +1,176 @@
+
+/* **********************************************
+*                                               *
+*      Heart-shaped sidebar by Emma Blixt       *
+*                                               *
+* ***********************************************/
+
+
+
+/* --------------- Top of the heart ------------------------ */
+
+.sidebar .description .heart-left1:hover{
+     background-color: #D0ECFA;
+}  
+    
+    
+.sidebar .heart-left {
+    position: fixed; 
+    top: 200px;
+    left: 106px;
+    background-color: #D0ECFA;
+    border-radius: 50%;
+	width: 102px;
+	height: 102px;
+    }
+    
+        
+.sidebar .heart-right {
+    position: fixed; 
+    top: 200px;
+    left: 193px;
+    background-color: #D0ECFA; 
+    border-radius: 50%;
+	width: 102px;
+	height: 102px;
+    }
+    
+ 
+ 
+ /* ------------------- Heart content --------------------- */
+ 
+   .sidebar {
+      background-color: #D0ECFA;
+      font-family:'IM Fell DW Pica SC', serif;
+      width: 172px;
+      position: fixed;
+      top: 230px;
+      left: 108px; } 
+      
+    .sidebar .description .title {
+      text-transform: lowercase;
+      font-family:'IM Fell DW Pica SC', serif;
+      font-size: 20px;
+      text-align: center;
+      left: 120px;
+      color: #ffffff; }
+      
+    .sidebar .description .title a {
+      color: #898989;
+      padding:7px;
+      text-decoration: none;
+      text-align: center;
+        -o-transition:.7s;
+        -ms-transition:.7s;
+        -moz-transition:.7s;
+        -webkit-transition:.7s;
+        transition:.7s; }
+      
+    .sidebar .description .title a:hover {
+      color: black; }
+      
+      
+      .sidebar .description {
+      position:fixed;
+      width: 172px;
+      border-radius: 10%;
+      background-color: #D0ECFA;
+      height:30px;
+      max-height: 30px;
+      font-size: 13px;
+      text-align: justify;
+      padding:6px;
+      line-height:100%;
+    
+    transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+          
+      }
+
+.sidebar .description:hover {
+      color: #5d5d5d;
+      height:125px;
+      max-height: 125px;
+}
+
+.sidebar .description p{
+    opacity:0;
+    transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+}
+
+   .sidebar .description p:hover{
+    opacity:1;
+}
+   
+/* --------------- Bottom of the heart --------------------- */   
+
+
+.sidebar .description .triangle-down {
+    border-top: 93px solid #D0ECFA;
+    border-left: 93px solid transparent;
+    border-right: 93px solid transparent;
+    position: fixed;
+    width: 0px;
+    height: 0px;
+    top: 269px;
+    left: 107px;
+    -webkit-transition: 1s ease-in;
+    -moz-transition: 1s ease-in;
+    -o-transition: 1s ease-in;
+    transition: 1s ease-in;
+}
+
+
+.sidebar .description:hover .triangle-down {
+     -webkit-transform: translateY(88px); 
+    -moz-transform: translateY(88px); 
+    -ms-transform: translateY(88px);
+    -o-transform: translateY(88px);
+    transform: translateY(88px);
+}
+
+
+
+/* ----------------------- Links ---------------------- */
+
+a {
+  text-decoration: none;
+  color: #5d5d5d;
+}
+
+
+.sidebar .description .links img {
+    height: 15px;
+  width: auto;
+}
+
+.sidebar .description .links{
+
+    position:fixed;
+	display: inline-block;
+	top:338px;
+    left:145px;
+    opacity:0;
+    
+    -webkit-transition: opacity .8s ease-in;
+    -moz-transition: opacity .8s ease-in;
+    -o-transition: opacity .8s ease-in;
+    transition: opacity .8s ease-in;
+}
+
+.sidebar .description .links:hover{
+    opacity:1;
+}
+
+.sidebar .description .links a{
+    padding:4px;
+   	float: left;
+	width: 15px;
+	top:300px;
+}
+   
+
+   
